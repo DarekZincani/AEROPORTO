@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starvato Airlines</title>
+     <!-- Bootstrap CSS -->
+     <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+
+
+
+
+<img src="logo/PURPLE PLANE.png" alt="">
+  
+    
+
+
+
+  
+
+
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label class="form-check-label" for="flexRadioDefault1">
+      solo andata
+    </label>
+  </div>
+ 
+      PARTENZA
+      <select name="aeroporto_di_partenza">
+        <option value="aeroporto_di_partenza"></option>
+        <option value="aeroporto_di_partenza">Alghero</option>
+        <option value="aeroporto_di_partenza">Milano</option>
+        <option value="aeroporto_di_partenza">Pescara</option>
+        <option value="aeroporto_di_partenza">Roma</option>
+        <option value="aeroporto_di_partenza">Trieste</option>
+      </select>
+    
+    ARRIVO
+      <select name="aeroporto_di_arrivo">
+        <option value="aeroporto_di_arrivo"></option>
+        <option value="aeroporto_di_arrivo">Alghero</option>
+        <option value="aeroporto_di_arrivo">Milano</option>
+        <option value="aeroporto_di_arrivo">Pescara</option>
+        <option value="aeroporto_di_arrivo">Roma</option>
+        <option value="aeroporto_di_arrivo">Trieste</option>
+      </select>
+    
+    DATA 
+      
+        <input style="left: 100px;" type="date">
+
+    ORARIO PARTENZA
+
+      <select name="orario_di_partenza">
+        <option value="orario_di_partenza"></option>
+        <option value="orario_di_partenza">09:30</option>
+        <option value="orario_di_partenza">11:00</option>
+        <option value="orario_di_partenza">15:00</option>
+        <option value="orario_di_partenza">19:00</option>
+      </select>
+
+
+      
+      <button onclick="submit"><a href="PRENOTAZIONE VOLO.html" role="button">CERCA</a></button>
+
+  <!---------------------INIZIO  NAVBAR-------------------->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="#">ISCRIVITI</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">ACCEDI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PRENOTAZIONE VOLO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CHECK-IN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ELENCO VOLI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">INFORMAZIONE VOLO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">MENÙ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">LINGUA
+                  <select name="lingua">
+                    <option value="lingua"></option>
+                    <option value="lingua">🇮🇪</option>
+                    <option value="lingua">🇬🇧</option>
+                    <option value="lingua">🇫🇷</option>
+                    <option value="lingua">🇩🇪</option>
+                    <option value="lingua">🇯🇵</option>
+                  </select>
+                </a>
+            </ul>
+                 
+</div>
+    </div>
+  </div>
+   <!---------------------FINE  NAVBAR-------------------->
+
+
+       <!-------------------------------INIZIO CAROSELLO------------------------------>
+       <div class="container">   <!--APERTURA CONTAINER CAROSELLO-->
+       <!-------------------------------1° PARTE CAROSELLO------------------------------>
+       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Giappone"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Israele"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Las Vegas"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Los Angeles"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Milano"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Philadelphia"></button>
+        </div>
+       <!-------------------------------FINE 1° PARTE CAROSELLO------------------------------>
+       <!-------------------------------INIZIO 2° PARTE CAROSELLO------------------------------>
+       <div class="carousel-inner">
+        <div class="carousel-item active">
+                <img src="Images/Giappone.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Israele.jpg" class="d-block w-100" alt="...">
+        </div>      
+        <div class="carousel-item">
+        <img src="Images/Las Vegas.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Los Angeles.jpg" class="d-block w-100" alt="...">
+        </div>
+          <div class="carousel-item">
+        <img src="Images/Milano.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+        <img src="Images/Philadelphia.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Precedente</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Prossimo</span>
+        </a>
+       <!-------------------------------FINE 2° PARTE CAROSELLO------------------------------>
+      </div>   <!--CHIUSURA CONTAINER CAROSELLO-->
+       <!-------------------------------FINE CAROSELLO------------------------------>
+
+
+
+       <!-----------------INIZIO CARD/FOOTER------------------->
+       <div class="container">
+        <div class="row">
+                  <div class="col-sm-4 card">
+                    <p style="margin-top: 30px; margin-left: 150px; font-size: 20px;">ITALIA</p>
+                              <div>
+                                  <img src="Images2/Roma.jpg" alt="Avatar" style="width:100%">
+                                  <div class="container">
+                                    <h4><b>ROMA</b></h4>
+                                    <p>solo andata</p>
+                                    <p style="text-align: right;">DA €50</p>
+                                  </div>
+                              </div>
+                  </div> 
+
+
+
+                  <div class="col-sm-4 card">
+                    <p style="margin-top: 30px; margin-left: 150px; font-size: 20px;">EUROPA</p>
+                    <div>
+                        <img src="Images2/Parigi.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                          <h4><b>PARIGI</b></h4>
+                          <p>solo andata</p>
+                          <p style="text-align: right;">DA €125</p>
+                        </div>
+                    </div>
+                  </div> 
+
+
+
+                  <div class="col-sm-4 card">
+                    <p style="margin-top: 30px; margin-left: 150px; font-size: 20px;">MONDO</p>
+                    <div>
+                        <img src="Images2/Londra.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                          <h4><b>LONDRA</b></h4>
+                          <p>solo andata</p>
+                          <p style="text-align: right;">DA €250</p>
+                        </div>
+                    </div>
+                  </div> 
+
+
+
+
+              <h2 style="margin-top: 35px; text-align: center;">I POSTI PIÙ VISITATI</h2>
+              <div class="col-sm-4 card">
+                <p style="margin-top: 30px; margin-left: 150px; font-size: 20px;">CARAIBI</p>
+                <div>
+                    <img src="Images3/caraibi.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                    </div>
+                </div>
+              </div> 
+
+
+
+              <div class="col-sm-4 card">
+                <p style="margin-top: 30px; margin-left: 150px; font-size: 20px;">HAIWAI</p>
+                <div>
+                    <img src="Images3/haiwai.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                    </div>
+                </div>
+              </div> 
+
+
+
+              <div class="col-sm-4 card">
+                <p style="margin-top: 30px; margin-left: 150px; font-size: 20px;">ISOLE TREMITI</p>
+                <div>
+                    <img src="Images3/isole tremiti.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                    </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-sm-4 card">
+                <p style="margin-top: 30px; margin-left: 150px; font-size: 20px;">FIRENZE</p>
+                <div>
+                    <img src="Images3/firenze.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                    </div>
+                </div>
+              </div>
+
+
+
+
+              <div class="col-sm-4 card">
+                <p style="margin-top: 30px; margin-left: 150px; font-size: 20px;">EGITTO</p>
+                <div>
+                    <img src="Images3/egitto.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                    </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-sm-4 card">
+                <p style="margin-top: 30px; margin-left: 150px; font-size: 20px;">BARCELLONA</p>
+                <div>
+                    <img src="Images3/barcellona.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                    </div>
+                </div>
+              </div>
+
+              
+              
+                <button onclick="submit"><a href="Altro.html">ALTRO</a></button>
+               
+
+
+                  <section class="main-content">
+                  </section>
+                  <footer style="background-color: rgb(10, 166, 114);padding:20px;color:#fff;text-align:center; margin-top: 40px;">
+                    <p>CHI SIAMO | COMUNICAZIONI | NETWORK | DIRITTI DEI PASSEGGERI | PRIVACY| DOCUMENTI | MAPPA DEL SITO | TRASPORTO AEREO
+                    </p>
+                  </footer>
+
+
+
+
+        </div>
+        
+
+      </div>  <!--appena inserito-->
+       <!---------------------FINE CARD/FOOTER-------------------->
+
+
+
+
+       
+
+             
+
+      
+  
+  
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+ 
+</body>
+</html>
